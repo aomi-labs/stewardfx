@@ -219,7 +219,7 @@ export function App() {
           <div className="hero-actions"><ContactLink dark /><a className="text-link" href="#operation">Trace the operation <span>↓</span></a></div>
         </div>
         <div className="hero-visual">
-          <div className="visual-head"><span className="caption">ONE OPERATION / EVERY LEG</span><span className="status">STABLEFX ACCESS REQUESTED</span></div>
+          <div className="visual-head"><span className="caption">ONE OPERATION / EVERY LEG</span><span className="status">STABLEFX ACCESS PENDING</span></div>
           <SettlementGraphic />
           <div className="visual-foot"><span>Source-backed context</span><span>Institutional authority</span><span>Onchain settlement evidence</span></div>
         </div>
@@ -266,6 +266,6 @@ export function App() {
       <section className="invitation wrap"><span className="caption">DESIGN PARTNERS</span><h2>Bring one real<br /><em>currency operation.</em></h2><div><p>Evaluate Steward FX against your stablecoin balances, corridor needs, approval process, and signing controls.</p><ContactLink dark /></div></section>
     </main>
 
-    <footer className="footer"><a className="brand" href="#top"><AomiMark size={22} /><span>steward <em>fx</em></span></a><p>Illustrative product concept. StableFX access requested; no Circle endorsement or live integration is represented.</p><div><a href="https://github.com/aomi-labs/stewardfx" target="_blank" rel="noreferrer">GitHub</a><a href="mailto:contact@aomi.dev">Contact</a><a href="https://aomi.dev/privacy">Privacy</a></div></footer>
+    <footer className="footer"><a className="brand" href="#top"><AomiMark size={22} /><span>steward <em>fx</em></span></a><p>Illustrative product concept. StableFX access is pending; no Circle endorsement or live integration is represented.</p><div><a href="https://github.com/aomi-labs/stewardfx" target="_blank" rel="noreferrer">GitHub</a><a href="mailto:contact@aomi.dev">Contact</a><a href="https://aomi.dev/privacy">Privacy</a></div></footer>
   </div>;
 }
