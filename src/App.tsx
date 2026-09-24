@@ -212,9 +212,9 @@ export function App() {
     <main>
       <section className="hero wrap">
         <div className="hero-copy">
-          <span className="caption live"><i /> ONCHAIN CURRENCY OPERATIONS</span>
-          <h1>Clarity and control for <em>onchain currency operations.</em></h1>
-          <p>Steward FX traces every stablecoin conversion from exposure and intent to signed authorization, atomic settlement, and reconciled final state.</p>
+          <span className="caption live"><i /> AGENTIC ONCHAIN CURRENCY OPERATIONS</span>
+          <h1>Clarity and control for <em>agentic onchain currency operations.</em></h1>
+          <p>Steward FX is Aomi’s agentic execution and control layer for stablecoin FX—connecting exposure and intent to simulation, signed authorization, atomic settlement, and reconciled final state.</p>
           <p className="assurance">Your institution retains custody, compliance, counterparty choice, approval, and signing authority.</p>
           <div className="hero-actions"><ContactLink dark /><a className="text-link" href="#operation">Trace the operation <span>↓</span></a></div>
         </div>
@@ -225,7 +225,7 @@ export function App() {
         </div>
       </section>
 
-      <div className="principles wrap"><span>Built for treasury and liquidity operators</span><span>Explainable route selection</span><span>Mandate-controlled signing</span><span>Chain-verified settlement</span></div>
+      <div className="principles wrap"><span>AI-prepared, institution-authorized</span><span>Explainable route selection</span><span>Mandate-controlled signing</span><span>Chain-verified settlement</span></div>
 
       <section className="section wrap" id="operation">
         <SectionHeading number="01" eyebrow="THE OPERATION" title="One currency need. A complete decision record.">Move from business obligation to settled tokens without losing the context, authority, or evidence between systems.</SectionHeading>
@@ -248,7 +248,7 @@ export function App() {
       </section>
 
       <section className="section wrap" id="harness">
-        <SectionHeading number="04" eyebrow="THE STEWARD HARNESS" title="The same base discipline, applied to FX.">AI can prepare and automate the work while the institution’s policies, approvals, and signing systems remain authoritative.</SectionHeading>
+        <SectionHeading number="04" eyebrow="THE AGENTIC STEWARD HARNESS" title="AI prepares the operation. Institutions stay in control.">Agentic execution can observe, reason, simulate, and prepare the work while institutional policies, approvals, and signing systems remain authoritative.</SectionHeading>
         <div className="harness-grid">{harness.map(([name, detail], index) => <div className="harness-step" key={name}><span>{String(index + 1).padStart(2, '0')}</span><b>{name}</b><p>{detail}</p></div>)}</div>
         <div className="legacy-band"><span className="caption">INTEGRATION BOUNDARY</span><h3>Onchain money legos.<br />Legacy control plane.</h3><p>Steward is designed to connect wallets, custody, approval systems, compliance policy, accounting, and chain execution—without claiming authority those systems retain.</p><div><span>Wallet / custodian</span><span>Policy engine</span><span>Approval workflow</span><span>Institutional signer</span><span>ERP / ledger</span></div></div>
       </section>
@@ -260,7 +260,7 @@ export function App() {
 
       <section className="section steward-line wrap">
         <div className="steward-mark"><AomiMark size={76} /><span>steward</span><small>BY AOMI LABS</small></div>
-        <div><span className="caption">STEWARDSHIP ACROSS ONCHAIN FINANCE</span><h2>Steward is Steward.</h2><p>Steward makes complex onchain financial operations legible, governable, and automatable. Steward FX is one expression of that foundation: the currency operation is the object, but the discipline is the same.</p><div className="inline-links"><a href="https://steward-aomi-labs.vercel.app" target="_blank" rel="noreferrer">Explore Steward ↗</a><a href="https://aomi.dev" target="_blank" rel="noreferrer">Aomi Labs ↗</a></div></div>
+        <div><span className="caption">AGENTIC STEWARDSHIP ACROSS ONCHAIN FINANCE</span><h2>Steward is Steward.</h2><p>Steward makes agentic onchain financial operations legible, governable, and verifiable. Steward FX is one expression of that foundation: the currency operation is the object, but the base harness and institutional control boundary stay the same.</p><div className="inline-links"><a href="https://steward-aomi-labs.vercel.app" target="_blank" rel="noreferrer">Explore Steward ↗</a><a href="https://aomi.dev" target="_blank" rel="noreferrer">Aomi Labs ↗</a></div></div>
       </section>
 
       <section className="invitation wrap"><span className="caption">DESIGN PARTNERS</span><h2>Bring one real<br /><em>currency operation.</em></h2><div><p>Evaluate Steward FX against your stablecoin balances, corridor needs, approval process, and signing controls.</p><ContactLink dark /></div></section>
